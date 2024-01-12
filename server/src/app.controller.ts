@@ -11,7 +11,6 @@ export class AppController {
   }
 
   @Get('/some')
-
   getSomething(): string {
     return this.appService.getSomething();
   }

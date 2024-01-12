@@ -6,6 +6,6 @@ export class AppService {
     return 'Hello World! This is Abhinav Pandey Coding hola!!!!';
   }
   getSomething(): string {
-    return 'This is another route on something'
+    return 'This is another route on something';
   }
 }

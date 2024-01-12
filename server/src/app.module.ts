@@ -7,7 +7,6 @@ import { QuizController } from './modules/quiz/quiz.controller';
 @Module({
   imports: [QuizModule],
   controllers: [AppController],
-  providers: [AppService],
+  providers: [AppService]
 })
-
 export class AppModule {}
